@@ -3,8 +3,6 @@ name: Docker PostGIS CI
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '15 5 * * 1'
 
 defaults:
   run:
